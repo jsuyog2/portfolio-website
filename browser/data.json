@@ -1,0 +1,584 @@
+{
+    "name": "Suyog Jadhav",
+    "aboutme": "Explore my expertise in application design, development, and API integration across diverse platforms. With proficiency in NodeJS, PHP, JavaScript, and Angular, I specialize in back-end development, including robust database management and secure LDAP implementation. Experienced in multi-project management and deployment on Linux, Windows, and Azure platforms. Let's innovate together!",
+    "contact": [
+        {
+            "title": "Location",
+            "icon": "pi pi-map-marker",
+            "value": "Panvel"
+        },
+        {
+            "title": "Email ID",
+            "icon": "pi pi-envelope",
+            "value": "jsuyog2@gmail.com",
+            "href": "mailto:jsuyog2@gmail.com"
+        },
+        {
+            "title": "Contact No",
+            "icon": "pi pi-mobile",
+            "value": "+91 8879747105"
+        }
+    ],
+    "social": {
+        "github": "https://github.com/jsuyog2",
+        "linkedin": "https://www.linkedin.com/in/suyogjadhav20/",
+        "twitter": "https://x.com/jsuyog2"
+    },
+    "cv_link": "https://drive.google.com/file/d/1s5etn4Cmswd91jBgeZ2KtyPcrBTgtqW9/view?usp=sharing",
+    "skills": [
+        {
+            "header": "Back-End Development",
+            "value": "Experienced in NodeJS for building robust server-side applications. Proficient in SQL and NoSQL databases, with a focus on PostgreSQL. Skilled in implementing APIs like Mapbox, Google Login, and Razorpay. Strong in LDAP for secure authentication. Experienced in deploying on Linux, Windows servers, and Azure.",
+            "icon": "pi pi-server float-start"
+        },
+        {
+            "header": "Front-End Development",
+            "value": " Skilled in JavaScript, JQuery, and Angular for creating dynamic, responsive user interfaces. Focus on designing user-friendly experiences across browsers and devices.",
+            "icon": "pi pi-th-large float-end"
+        },
+        {
+            "header": "Other Skills",
+            "value": "Strong in multi-project management, ensuring timely, high-quality deliveries. Experienced with Azure cloud services. Known for analytical skills, teamwork, and effective communication. Committed to continuous learning and staying updated with industry trends.",
+            "icon": "pi pi-trophy float-start"
+        }
+    ],
+    "experience": [
+        {
+            "start_date": "01-17-2024",
+            "name": "Accenture Pvt. Ltd.",
+            "role": "Software Development Senior Analyst"
+        },
+        {
+            "start_date": "05-05-2022",
+            "end_date": "01-05-2024",
+            "name": "Infosys Ltd, Pune",
+            "role": "Senior Associate Consultant"
+        },
+        {
+            "start_date": "07-26-2021",
+            "end_date": "05-04-2022",
+            "name": "TechStar IT Services Pvt. Ltd",
+            "role": "Software Developer"
+        },
+        {
+            "start_date": "03-11-2019",
+            "end_date": "07-25-2021",
+            "name": "Valectus Pvt. Ltd.",
+            "role": "Web Developer"
+        },
+        {
+            "start_date": "09-11-2018",
+            "end_date": "03-11-2019",
+            "name": "Valectus Pvt. Ltd.",
+            "role": "Intern"
+        }
+    ],
+    "education": [
+        {
+            "year": "05-01-2021",
+            "degree": "Master of Science in Information Technology (M.Sc. IT)",
+            "name": "Pillai College of Arts, Commerce and Science",
+            "university": "Autonomous",
+            "marks": "75.20"
+        },
+        {
+            "year": "05-01-2018",
+            "degree": "Bachelor of Science in Information Technology (B.Sc. IT)",
+            "name": "Pillai College of Arts, Commerce and Science",
+            "university": "Mumbai University",
+            "marks": "63.49"
+        },
+        {
+            "year": "02-01-2014",
+            "degree": "Higher Secondary School Certificate (H.S.C.)",
+            "name": "Changu Kana Thakur Jr. College",
+            "university": "Mumbai University",
+            "marks": "56.00"
+        },
+        {
+            "year": "03-01-2012",
+            "degree": "Secondary School Certificate (S.S.C.)",
+            "name": "Changu Kana Thakur Vidyalaya",
+            "university": "Mumbai University",
+            "marks": "66.00"
+        }
+    ],
+    "achievements": [
+        "Developed and published an Android project named ChaiVala on the Google Play Store",
+        "Achieved first place in the short film competition \"ROLL NUMBER\" during the \"AARSH\" The Media Fest (Intercollegiate events).",
+        "Participated in a workshop on \"Android Application Development\" hosted by the TECHKNOW team of TYBSc(IT).",
+        "Attended a seminar focused on \"Cyber Law & Cyber Crime\" organized by Pillai College - BSc (IT).",
+        "Took part in the \"Deep Web Seminar 2017\" held by Pillai College - BSc (IT)."
+    ],
+    "projects": [
+        {
+            "start_date": "01-01-2024",
+            "title": "Daily Insights Generator",
+            "tag": "latest",
+            "description": [
+                "Summarize information from T+1 pnl emails into valuable insights, trends, and actionable items, sent to the CIO in a daily email.",
+                "Chatbot that can surface insights from these emails in natural language. The chatbot engine can be incorporated into MS365 Copilot chat as a plugin once the feature becomes available."
+            ],
+            "responsibility": [
+                "Create an API in NodeJS and ExpressJS.",
+                "Secure API access with JWT Token implementation.",
+                "Develop a user-friendly UI in Angular using PrimeNG.",
+                "Deploy the ExpressJS app using Azure Function App.",
+                "Deploy the Angular application using Azure Web App.",
+                "Assist in Azure deployment processes.",
+                "Implement like, dislike, and comment options."
+            ],
+            "Link": "Internal use",
+            "tech": [
+                {
+                    "title": "NodeJS",
+                    "icon": "https://img.icons8.com/?size=100&id=FQlr_bFSqEdG&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "ExpressJS",
+                    "icon": "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "Angular Cli",
+                    "icon": "https://img.icons8.com/?size=100&id=36387&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "Cosmos DB",
+                    "icon": "https://img.icons8.com/?size=100&id=11450&format=png&color=3E3A2E"
+                }
+            ]
+        },
+        {
+            "start_date": "01-01-2024",
+            "title": "Counterparty Credit Risk Text Summarization Tool",
+            "tag": "latest",
+            "description": [
+                "Automate the extraction and synthesis of information from financial statements, newsfeeds, and historical credit data.",
+                "Leverage NLP techniques and large language models (LLMs) to generate credit risk summaries.",
+                "Streamline and enhance the credit risk decision-making process."
+            ],
+            "responsibility": [
+                "Create an API in NodeJS and ExpressJS.",
+                "Secure API access with JWT Token implementation.",
+                "Develop a user-friendly UI in Angular using Bootstrap.",
+                "Implement form functionalities and upload options.",
+                "Implement export functionality for PDF and PPT.",
+                "Utilize datatables for data presentation.",
+                "Deploy the ExpressJS app using Azure Function App.",
+                "Deploy the Angular application using Azure Web App.",
+                "Assist in Azure deployment processes.",
+                "Implement edit, like, dislike, and comment options."
+            ],
+            "Link": "Internal use",
+            "tech": [
+                {
+                    "title": "NodeJS",
+                    "icon": "https://img.icons8.com/?size=100&id=FQlr_bFSqEdG&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "ExpressJS",
+                    "icon": "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "Angular Cli",
+                    "icon": "https://img.icons8.com/?size=100&id=36387&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "Cosmos DB",
+                    "icon": "https://img.icons8.com/?size=100&id=11450&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "Bootstrap",
+                    "icon": "https://img.icons8.com/?size=100&id=OODqBWCdRF8o&format=png&color=3E3A2E"
+                }
+            ]
+        },
+        {
+            "start_date": "01-01-2024",
+            "title": "HY Debt Market Commentary Generator",
+            "tag": "latest",
+            "description": [
+                "Use LLMs to generate market recaps and summaries covering volume, performance, and new issuance",
+                "This application will be used for daily issuance summaries and weekly leveraged finance reports"
+            ],
+            "responsibility": [
+                "Create an API in NodeJS and ExpressJS.",
+                "Secure API access with JWT Token implementation.",
+                "Develop a user-friendly UI in Angular using Bootstrap.",
+                "Implement export functionality for PDF and PPT.",
+                "Utilize datatables for data presentation.",
+                "Deploy the ExpressJS app using Azure Function App.",
+                "Deploy the Angular application using Azure Web App.",
+                "Assist in Azure deployment processes.",
+                "Implement edit, like, dislike, and comment options."
+            ],
+            "Link": "Internal use",
+            "tech": [
+                {
+                    "title": "NodeJS",
+                    "icon": "https://img.icons8.com/?size=100&id=FQlr_bFSqEdG&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "ExpressJS",
+                    "icon": "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "Angular Cli",
+                    "icon": "https://img.icons8.com/?size=100&id=36387&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "Cosmos DB",
+                    "icon": "https://img.icons8.com/?size=100&id=11450&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "Bootstrap",
+                    "icon": "https://img.icons8.com/?size=100&id=OODqBWCdRF8o&format=png&color=3E3A2E"
+                }
+            ]
+        },
+        {
+            "start_date": "01-01-2024",
+            "title": "Investment Research Retrieval Chatbot",
+            "tag": "latest",
+            "description": [
+                "Accelerate the process of extracting insights from investment research documents by leveraging NLP and generative AI techniques.",
+                "Enable users to interact with the content using natural language (English).",
+                "Allow users to extract specific key information, as well as related metadata and statistics from the documents."
+            ],
+            "responsibility": [
+                "Create an API in NodeJS and ExpressJS.",
+                "Secure API access with JWT Token implementation.",
+                "Develop a user-friendly UI in Angular using Bootstrap.",
+                "Implement export functionality for PDF and PPT.",
+                "Utilize datatables for data presentation.",
+                "Deploy the ExpressJS app using Azure Function App.",
+                "Deploy the Angular application using Azure Web App.",
+                "Assist in Azure deployment processes.",
+                "Implement edit, like, dislike, and comment options."
+            ],
+            "Link": "Internal use",
+            "tech": [
+                {
+                    "title": "HTML",
+                    "icon": "https://img.icons8.com/?size=100&id=23027&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "CSS",
+                    "icon": "https://img.icons8.com/?size=100&id=38273&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "Javascript",
+                    "icon": "https://img.icons8.com/?size=100&id=39853&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "JQuery",
+                    "icon": "https://img.icons8.com/?size=100&id=55215&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "Bootstrap",
+                    "icon": "https://img.icons8.com/?size=100&id=OODqBWCdRF8o&format=png&color=3E3A2E"
+                }
+            ]
+        },
+        {
+            "start_date": "01-01-2023",
+            "end_date": "01-01-2024",
+            "tag": "old",
+            "title": "ICRA - Incident and Change Review Automation",
+            "description": [
+                "Service Now has complicated and lengthy forms that take significant time to submit any request.",
+                "ICRA is a tool designed to raise change and incident requests easily and efficiently.",
+                "The tool allows for easy approval of requests and enables users to send comments.",
+                "It reduces human effort and, with a user-friendly UI, significantly decreases the time required to submit a request.",
+                "Users can share requests with others by sharing access to the request and its link"
+            ],
+            "responsibility": [
+                "Create an API in NodeJS and ExpressJS.",
+                "Secure API access with JWT Token and LDAP implementation.",
+                "Implement access level roles in the API.",
+                "Integrate Service Now API for easy submission of changes, incident reporting, approval, and commenting.",
+                "Generate reports within the API.",
+                "Develop a user-friendly UI in Angular using Bootstrap.",
+                "Implement functionalities for sharing, accessing requests, and checking the statusof specific requests in the UI."
+            ],
+            "Link": "Internal use",
+            "tech": [
+                {
+                    "title": "NodeJS",
+                    "icon": "https://img.icons8.com/?size=100&id=FQlr_bFSqEdG&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "ExpressJS",
+                    "icon": "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "Angular Cli",
+                    "icon": "https://img.icons8.com/?size=100&id=36387&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "SQL Server",
+                    "icon": "https://img.icons8.com/?size=100&id=7r81vNSlvJe6&format=png&color=3E3A2E"
+                }
+            ]
+        },
+        {
+            "start_date": "07-01-2021",
+            "end_date": "01-01-2024",
+            "tag": "old",
+            "title": "HSBC Telecom Service Portal",
+            "description": [
+                "Tools like Cramer, Splunk, SevOne, NNMi, etc., are used for managing alerts and policies for devices. Opening each tool individually for a single alert or policy can be time-consuming.",
+                "HSBC Telecom Service Portal streamlines this process by combining multiple tools into a single portal.",
+                "It enables side-by-side correlation and analysis of alerts and policies from various tools.",
+                "Users can quickly respond to high-level alerts and policies by sharing a link, reducing efforts and time.",
+                "The portal provides a unified, user-friendly interface, significantly improving efficiency and reducing the need to switch between multiple tools."
+            ],
+            "responsibility": [
+                "Create an API in NodeJS and ExpressJS.",
+                "Secure API access with JWT Token and LDAP implementation.",
+                "Implement access level roles in the API.",
+                "Integrate 10 different tools' APIs into a single API for consolidated access.",
+                "Retrieve alerts and policies from various tools and combine them in the API.",
+                "Develop a user-friendly UI using Angular and Bootstrap.",
+                "Facilitate easy correlation between alerts and policies through the UI.",
+                "Implement routing for sharing policies and alerts via links."
+            ],
+            "Link": "Internal use",
+            "tech": [
+                {
+                    "title": "NodeJS",
+                    "icon": "https://img.icons8.com/?size=100&id=FQlr_bFSqEdG&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "ExpressJS",
+                    "icon": "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "Angular Cli",
+                    "icon": "https://img.icons8.com/?size=100&id=36387&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "Oracle",
+                    "icon": "https://img.icons8.com/?size=100&id=36681&format=png&color=3E3A2E"
+                }
+            ]
+        },
+        {
+            "start_date": "03-01-2019",
+            "end_date": "07-01-2021",
+            "tag": "old",
+            "title": "MapDataLab",
+            "description": [
+                "MapDataLAB is a comprehensive data analytics platform designed to help businesses optimize their use of spatial or location-based data, leading to better decisions, improved customer experiences, and enhanced business outcomes.",
+                "The platform offers features such as data upload and visualization, data classification, and access to datasets from experienced geoanalysts, including information on population, infrastructure penetration, urbanization, and more."
+            ],
+            "responsibility": [
+                "Create APIs using NodeJS and PHP to handle spatial data and GIS analytics.",
+                "Integrate Google Login for user authentication and Razorpay Payment Gateway for premium users.",
+                "Manage user roles within the application.",
+                "Utilize Mapbox API for map and location-based data visualization.",
+                "Develop the front-end using JavaScript, HTML, CSS, JQuery, and Bootstrap"
+            ],
+            "Link": "https://www.mapdatalab.com/",
+            "tech": [
+                {
+                    "title": "NodeJS",
+                    "icon": "https://img.icons8.com/?size=100&id=FQlr_bFSqEdG&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "ExpressJS",
+                    "icon": "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "Javascript",
+                    "icon": "https://img.icons8.com/?size=100&id=39853&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "JQuery",
+                    "icon": "https://img.icons8.com/?size=100&id=55215&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "PHP",
+                    "icon": "https://img.icons8.com/?size=100&id=39852&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "PostgreSQL",
+                    "icon": "https://img.icons8.com/?size=100&id=25010&format=png&color=3E3A2E"
+                }
+            ]
+        },
+        {
+            "start_date": "09-01-2018",
+            "end_date": "03-01-2019",
+            "tag": "old",
+            "title": "MyEdmate",
+            "responsibility": [
+                "Develop and maintain the front-end using JavaScript, HTML, CSS, and JQuery.",
+                "Create and manage the back-end using PHP.",
+                "Implement and manage the PostgreSQL database.",
+                "Integrate the Mapbox API for location-based services.",
+                "Implement Google Login API for user authentication."
+            ],
+            "description": [
+                "MyEdmate is a platform designed for students and parents to find, compare, locate, and view detailed information about various education centers.",
+                "The platform also provides online marketing services for educational institutions.",
+                "Users can use the Mapbox API for location-based services and Google Login APIfor authentication."
+            ],
+            "Link": "https://www.myedmate.com/",
+            "tech": [
+                {
+                    "title": "NodeJS",
+                    "icon": "https://img.icons8.com/?size=100&id=FQlr_bFSqEdG&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "Javascript",
+                    "icon": "https://img.icons8.com/?size=100&id=39853&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "JQuery",
+                    "icon": "https://img.icons8.com/?size=100&id=55215&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "PHP",
+                    "icon": "https://img.icons8.com/?size=100&id=39852&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "PostgreSQL",
+                    "icon": "https://img.icons8.com/?size=100&id=25010&format=png&color=3E3A2E"
+                }
+            ]
+        },
+        {
+            "duration": "6 months",
+            "title": "Face Recognition System",
+            "tag": "collage",
+            "description": [
+                "Implemented a face recognition system using black and white images.",
+                "Developed features for adding new faces with images and automatic face cropping.",
+                "Utilized a custom model for face detection trained with CNN algorithms using 30,000 images."
+            ],
+            "Link": "M.Sc. IT Project",
+            "tech": [
+                {
+                    "title": "NodeJS",
+                    "icon": "https://img.icons8.com/?size=100&id=FQlr_bFSqEdG&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "ExpressJS",
+                    "icon": "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "Javascript",
+                    "icon": "https://img.icons8.com/?size=100&id=39853&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "JQuery",
+                    "icon": "https://img.icons8.com/?size=100&id=55215&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "PostgreSQL",
+                    "icon": "https://img.icons8.com/?size=100&id=25010&format=png&color=3E3A2E"
+                }
+            ]
+        },
+        {
+            "duration": "6 months",
+            "title": "Car Rental Website",
+            "tag": "collage",
+            "description": [
+                "Developed a user-friendly interface for viewing car rental details.",
+                "Implemented functionalities allowing admin access to view and modify customer booking details.",
+                "Included personal login capabilities for administrators to manage the system efficiently."
+            ],
+            "Link": "B.Sc. IT Project",
+            "tech": [
+                {
+                    "title": "PHP",
+                    "icon": "https://img.icons8.com/?size=100&id=39852&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "Javascript",
+                    "icon": "https://img.icons8.com/?size=100&id=39853&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "JQuery",
+                    "icon": "https://img.icons8.com/?size=100&id=55215&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "MySql",
+                    "icon": "https://img.icons8.com/?size=100&id=39858&format=png&color=3E3A2E"
+                }
+            ]
+        },
+        {
+            "duration": "",
+            "title": "Express Sequelize API",
+            "tag": "open",
+            "description": [
+                "Developed a secure and reliable API for user authentication, registration, and verification.",
+                "Utilizes Express framework with features like JWT Token for authentication, bcryptjs for password hashing, Nodemailer for email functionalities, and Sequelize for database interaction and ORM functionality.",
+                "The project is open source and available on GitHub for installation and contributions.",
+                "The project is a robust and scalable RESTful API built using Express.js and Sequelize, providing a clean and efficient backend solution for managing data and handling various API requests in a Node.js environment."
+            ],
+            "Link": "https://github.com/jsuyog2/express-sequelize-api",
+            "tech": [
+                {
+                    "title": "NodeJS",
+                    "icon": "https://img.icons8.com/?size=100&id=FQlr_bFSqEdG&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "Sequelize",
+                    "icon": "https://img.icons8.com/?size=100&id=1476&format=png&color=3E3A2E"
+                }
+            ]
+        },
+        {
+            "duration": "",
+            "title": "PostGIS for Node.js",
+            "tag": "open",
+            "description": [
+                "Provides spatial operations on PostgreSQL/PostGIS databases.",
+                "Abstracts common PostGIS tasks like bounding boxes, centroids, intersections, etc.",
+                "API includes methods for querying tables, calculating geometries, and converting to GeoJSON, Geobuf, and Mapbox Vector Tiles (MVT)."
+            ],
+            "Link": "https://www.npmjs.com/package/postgis",
+            "tech": [
+                {
+                    "title": "NodeJS",
+                    "icon": "https://img.icons8.com/?size=100&id=FQlr_bFSqEdG&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "NPM",
+                    "icon": "https://img.icons8.com/?size=100&id=UF4YeVVLGLlp&format=png&color=3E3A2E"
+                }
+            ]
+        },
+        {
+            "duration": "",
+            "title": "Sequelize Shorten Url for Node.js",
+            "tag": "open",
+            "description": [
+                "Provides URL shortening functionality using Sequelize ORM.",
+                "Shortens URLs, tracks click counts, and retrieves statistics.",
+                "Compatible with databases supported by Sequelize (e.g., MySQL, PostgreSQL, SQLite).",
+                "Offers methods to retrieve original URLs and view click stats.",
+                "Database configuration is customizable."
+            ],
+            "Link": "https://www.npmjs.com/package/@jsuyog2/sequelize-shorten-url",
+            "tech": [
+                {
+                    "title": "NodeJS",
+                    "icon": "https://img.icons8.com/?size=100&id=FQlr_bFSqEdG&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "NPM",
+                    "icon": "https://img.icons8.com/?size=100&id=UF4YeVVLGLlp&format=png&color=3E3A2E"
+                },
+                {
+                    "title": "Sequelize",
+                    "icon": "https://img.icons8.com/?size=100&id=1476&format=png&color=3E3A2E"
+                }
+            ]
+        }
+    ]
+}
