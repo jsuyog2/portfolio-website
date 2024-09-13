@@ -95,6 +95,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "branch": "ghpages",
+            "dir": "dist/suyog-jadhav",
+            "repo": "https://github.com/jsuyog2/portfolio-website.git"
+          }
         }
       }
     }
