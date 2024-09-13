@@ -30,3 +30,4 @@ jobs:
         github_token: ${{ secrets.GH_TOKEN }}
         publish_dir: dist/suyog-jadhav/browser
         enable_jekyll: true
+        publish_branch: ghpages
