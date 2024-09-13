@@ -52,7 +52,7 @@
     </div>
     <div id="services" class="row section-row py-2">
       <div class="col">
-        <div class="ad-box">
+        <div class="content-box">
           <p-carousel [value]="services" [numVisible]="3" [numScroll]="1" [circular]="true" [showIndicators]="false"
             [responsiveOptions]="responsiveOptions">
             <ng-template let-item pTemplate="item">
@@ -68,7 +68,7 @@
     <div id="skills" class="row section-row py-2">
       <h1 class="pt-3 text-center fst-italic">Skills</h1>
       <div class="col-12 col-md-4 my-1" *ngFor="let item of data.skills">
-        <div class="ad-box p-3 h-100">
+        <div class="content-box p-3 h-100">
           <label class="text">
             {{item.header}}
           </label>
@@ -188,7 +188,7 @@
       </div>
     </div>
     <div id="experience_education" class="row section-row py-2 justify-content-center">
-      <div class="col-12 col-lg-5 p-2 m-1 ad-box">
+      <div class="col-12 col-lg-5 p-2 m-1 content-box">
         <h1 class="pt-3 text-center fst-italic">Experience</h1>
         <p-timeline [value]="experience" align="alternate">
           <ng-template pTemplate="content" let-experience>
@@ -201,7 +201,7 @@
           </ng-template>
         </p-timeline>
       </div>
-      <div class="col-12 col-lg-5 p-2 m-1 ad-box">
+      <div class="col-12 col-lg-5 p-2 m-1 content-box">
         <h1 class="pt-3 text-center fst-italic">Education</h1>
         <p-timeline [value]="education" align="alternate">
           <ng-template pTemplate="content" let-education>
@@ -220,7 +220,7 @@
     <div id="achievements" class="row section-row py-2">
       <h1 class="pt-3 text-center fst-italic">Achievements</h1>
       <div class="col-12">
-        <span class="ad-box d-block p-2 mb-2" *ngFor="let item of data.achievements">
+        <span class="content-box d-block p-2 mb-2" *ngFor="let item of data.achievements">
           <p class="p-0 m-0">{{item}}</p>
         </span>
       </div>
@@ -228,7 +228,7 @@
     <div id="contact" class="row section-row py-2">
       <h1 class="pt-3 text-center fst-italic">Get In Touch</h1>
       <div class="col-12 col-md-4 my-1" *ngFor="let item of data.contact">
-        <div class="ad-box p-3 my-1 h-100">
+        <div class="content-box p-3 my-1 h-100">
           <div class="row">
             <div class="col-4 col-md-12">
               <p>
@@ -245,13 +245,13 @@
       </div>
     </div>
     <div id="contact-form-map" class="row section-row py-2 justify-content-center">
-      <div class="col-12 col-md-5 p-2 m-1 ad-box">
+      <div class="col-12 col-md-5 p-2 m-1 content-box">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77890.45069442966!2d73.07315743529878!3d18.98903315395878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e83e1f23f23d%3A0xe3a106c431e3fd0a!2sPanvel%2C%20Navi%20Mumbai%2C%20Maharashtra!5e1!3m2!1sen!2sin!4v1725999397668!5m2!1sen!2sin"
           width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-      <div class="col-12 col-md-5 p-2 m-1 ad-box">
+      <div class="col-12 col-md-5 p-2 m-1 content-box">
         <form class="row g-3" [action]="data.contact[1].href" method="post" enctype="text/plain">
           <p-floatLabel class="mt-4">
             <input pInputText id="name" name="name" class="w-100" type="text" required />
