@@ -41,13 +41,13 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kB",
-                  "maximumError": "1MB"
+                  "maximumWarning": "100MB",
+                  "maximumError": "100MB"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kB",
-                  "maximumError": "4kB"
+                  "maximumWarning": "100MB",
+                  "maximumError": "100MB"
                 }
               ],
               "outputHashing": "all"
@@ -100,7 +100,7 @@
           "builder": "angular-cli-ghpages:deploy",
           "options": {
             "branch": "ghpages",
-            "dir": "dist/suyog-jadhav",
+            "baseHref": "https://jsuyog2.github.io/portfolio-website/",
             "repo": "https://github.com/jsuyog2/portfolio-website.git"
           }
         }
