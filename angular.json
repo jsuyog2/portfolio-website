@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "portfolio-website": {
+    "suyog-jadhav": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/portfolio-website",
+            "outputPath": "dist/suyog-jadhav",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "portfolio-website:build:production"
+              "buildTarget": "suyog-jadhav:build:production"
             },
             "development": {
-              "buildTarget": "portfolio-website:build:development"
+              "buildTarget": "suyog-jadhav:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -98,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "b1f96185-261a-4032-b739-8af7cc53120c"
   }
 }

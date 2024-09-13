@@ -1,1 +1,396 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+@import "primeng/resources/themes/aura-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "bootstrap/dist/css/bootstrap-grid.min.css";
+@import "bootstrap/dist/css/bootstrap-utilities.min.css";
+@import "primeicons/primeicons.css";
+
+$text-color: #3e3a2e;
+$font: "Newsreader", system-ui;
+
+@mixin tablet-and-up {
+    @media screen and (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin laptop-and-up {
+    @media screen and (min-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin desktop-and-up {
+    @media screen and (min-width: 1200px) {
+        @content;
+    }
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    color: $text-color;
+    font-family: $font;
+
+    #background-image {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background-image: url("./../public/vintage-background.webp");
+        background-size: cover;
+        opacity: .5;
+    }
+}
+
+.p-button {
+    font-family: $font;
+    border-radius: 0;
+
+    &.p-button-outlined,
+    &.p-button-link {
+        color: $text-color !important;
+        border-color: $text-color;
+
+        &:enabled:hover {
+            color: $text-color !important;
+            border-color: $text-color;
+        }
+    }
+}
+
+.p-inputtext {
+    border-radius: 0;
+    border-color: $text-color;
+    background-color: transparent;
+
+    &:enabled:focus,
+    &:enabled:hover {
+        color: $text-color !important;
+        border-color: $text-color;
+    }
+
+    &:enabled:focus {
+
+        outline: 1px solid $text-color;
+    }
+}
+
+.p-float-label>label {
+    color: $text-color !important;
+}
+
+header {
+    padding-top: 10px;
+
+    #social-handlers {
+        .p-button.p-button-link span {
+            color: $text-color !important;
+            font-size: 0.6rem;
+
+            @include tablet-and-up {
+                font-size: 0.9rem;
+            }
+
+            @include laptop-and-up {
+                font-size: 1.2rem;
+            }
+        }
+
+    }
+
+    #header-title {
+        $img-size: 75px;
+        $heading-font: 2rem;
+
+        margin-top: 5px;
+        border-bottom: 2px solid $text-color;
+        font-family: "Grenze Gotisch", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        text-align: center;
+        align-items: baseline;
+
+        h1 {
+            font-size: $heading-font;
+            margin: 0;
+
+            @include tablet-and-up {
+                $heading-font: 5rem;
+                font-size: $heading-font;
+            }
+
+            @include laptop-and-up {
+                $heading-font: 6rem;
+                font-size: $heading-font;
+            }
+        }
+
+
+
+        div:last-child h1 {
+            text-align: start;
+        }
+
+        div:first-child h1 {
+            text-align: end;
+        }
+
+        #profile-img {
+            .original-image {
+                width: $img-size;
+                height: $img-size;
+                border-radius: 50%;
+
+                @include tablet-and-up {
+                    $img-size: 100px;
+                    width: $img-size;
+                    height: $img-size;
+                }
+
+                @include laptop-and-up {
+                    $img-size: 120px;
+                    width: $img-size;
+                    height: $img-size;
+                }
+            }
+        }
+    }
+
+    #header-sub-title {
+        text-align: center;
+        border-bottom: 2px solid $text-color;
+        font-optical-sizing: auto;
+
+        @include tablet-and-up {
+            font-size: 1.2rem;
+        }
+
+        @include laptop-and-up {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+main {
+    .section-row {
+        border-bottom: 2px solid $text-color;
+    }
+
+    .border-img {
+        $img-size: 135px;
+        border: 2px solid $text-color;
+        padding: .25rem !important;
+        height: fit-content;
+        float: left;
+        margin: 5px;
+
+        .original-image {
+            border: 2px solid $text-color;
+            width: $img-size;
+
+            @include tablet-and-up {
+                $img-size: 200px;
+                width: $img-size;
+            }
+
+            @include laptop-and-up {
+                $img-size: 250px;
+                width: $img-size;
+            }
+        }
+    }
+
+
+    .cover-text {
+        text-align: justify;
+        margin-top: 5px;
+
+        label.text {
+            font-size: 1.75rem;
+            font-weight: 700;
+
+            @include tablet-and-up {
+                font-size: 2.25rem;
+            }
+
+            @include laptop-and-up {
+                font-size: 2.50rem;
+            }
+        }
+
+        p {
+            margin-top: 5px;
+
+            &::first-letter {
+                font-size: 200%;
+            }
+        }
+    }
+
+    .p-carousel {
+        font-family: $font;
+        color: $text-color;
+        border-radius: 0;
+        background-color: transparent;
+        box-shadow: none;
+
+        .box {
+            text-align: center;
+
+            label.text {
+                font-weight: 700;
+                font-size: 1.8rem;
+            }
+        }
+
+        .p-box {
+            text-align: center;
+
+            var {
+                display: block;
+            }
+
+            label.text {
+                font-weight: 700;
+                font-size: 1.2rem;
+            }
+
+            p {
+                text-align: start;
+
+
+                &::first-letter {
+                    font-size: 200%;
+                }
+            }
+        }
+
+        .p-carousel-next,
+        .p-carousel-prev {
+            color: $text-color;
+            border-radius: 0;
+
+            &:enabled:hover {
+                color: $text-color;
+                border: 1px solid $text-color;
+                background: transparent;
+            }
+        }
+    }
+
+
+    .ad-box {
+        border: 2px solid $text-color;
+
+        label.text {
+            font-size: 1.7rem;
+            font-weight: 700;
+            text-align: center;
+            width: 100%;
+            display: block;
+        }
+
+        p {
+            text-align: justify;
+            align-content: center;
+
+            &::first-letter {
+                font-size: 200%;
+            }
+
+            i {
+                font-size: 4.5rem;
+
+                &.float-start {
+                    margin-right: 15px;
+                    float: left;
+                }
+
+                &.float-end {
+                    margin-left: 15px;
+                    float: right;
+                }
+            }
+        }
+
+        .p-button.p-button-link {
+            font-size: 1.17em;
+            padding: 0;
+
+            .p-button-label {
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.p-dialog {
+    font-family: $font;
+    overflow: auto;
+    padding: 15px;
+    border-radius: 0;
+    color: $text-color;
+    border: 2px solid $text-color;
+
+    img {
+        width: 50px;
+    }
+
+    .close-btn {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        color: $text-color;
+    }
+}
+
+.p-timeline {
+    font-family: $font;
+
+    .p-timeline-event-marker {
+        border-radius: 0;
+        border-color: $text-color;
+        background-color: transparent;
+
+        &::before {
+            border-radius: 0;
+            background-color: $text-color;
+        }
+
+    }
+
+    .p-timeline-event-connector {
+        background-color: $text-color;
+    }
+}
+
+.p-scrollpanel-bar {
+    background-color: $text-color;
+}
+
+.black-and-white {
+    width: 100%;
+    filter: brightness(80%) contrast(100%) grayscale(50%) saturate(100%) sepia(100%)
+}
+
+.truncate-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+
+    &::first-letter {
+        font-size: 200%;
+    }
+}
